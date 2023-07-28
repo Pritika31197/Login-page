@@ -20,12 +20,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.box{
+  height: 500px;
+  width: 500px;
+  background-color: #61dafb;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin: 0 auto;
+  margin-top: 50px;;
+  border-radius: 50px;
+  border : 2px dashed ;
+  padding: 10px;
+
 }
 
 @keyframes App-logo-spin {
